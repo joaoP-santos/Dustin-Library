@@ -1,0 +1,25 @@
+{
+  "name": "Dustin-Library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoP-santos/Dustin-Library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoP-santos/Dustin-Library/issues"
+  },
+  "homepage": "https://github.com/joaoP-santos/Dustin-Library#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "nunjucks": "^3.2.2"
+  }
+}

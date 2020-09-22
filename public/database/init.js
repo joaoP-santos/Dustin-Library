@@ -1,4 +1,4 @@
-var firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyDtSn8DbsMmRQ6hd_R64p9HWCkV-GTC1JE",
     authDomain: "dustin--library.firebaseapp.com",
     databaseURL: "https://dustin--library.firebaseio.com",
@@ -11,7 +11,5 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+  
 
-  const auth = firebase.auth()
-  const database = firebase.firestore()
-  const storage = firebase.storage()
